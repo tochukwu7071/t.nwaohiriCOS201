@@ -107,14 +107,16 @@ int main(){
 
     
     
-  std::cout<<"BOOKING SUMMARY \n";
-  std::cout<<"NAME: "<< name<<"\n";
-  std::cout<<"COURSE NAME: "<< course_name <<"\n";
-  std::cout<<"DAYS: "<<days<<"\n";
-  std::cout<<"REGISTRATION: "<<registration<<"\n";
-  std::cout<<"LODGING: "<< lodging_cost<<"\n";
-  std::cout<<"DISCOUNT: "<< discount <<"\n";
+  std::cout<<"-----------BOOKING SUMMARY------------- \n";
+  std::cout<<"Name: "<< name<<"\n";
+  std::cout<<"Course name : "<< course_name <<"\n";
+  std::cout<<"Days: "<<days<<"\n";
+  std::cout<<"Registration: "<<registration<<"\n";
+  std::cout<<"Lodging: "<< lodging_cost<<"\n";
+  std::cout <<"Random draw: " << r << "   Promo applied: ₦" << promo << "\n";
+
   std::cout<<"TOTAL: "<<total<<"\n";
+  
   
 }
 
